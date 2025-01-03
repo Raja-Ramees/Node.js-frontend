@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build:dev": "NODE_ENV=development echo 'Building Dev Environment'",
+      "build:staging": "NODE_ENV=staging echo 'Building Staging Environment'",
+      "build:prod": "NODE_ENV=production echo 'Building Prod Environment'"
+}
+    "test": "echo \"Error: no test specified\" && exit 1"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raja-Ramees/Node.js-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raja-Ramees/Node.js-frontend/issues"
+  },
+  "homepage": "https://github.com/Raja-Ramees/Node.js-frontend#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
